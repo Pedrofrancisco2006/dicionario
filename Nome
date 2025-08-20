@@ -1,0 +1,10 @@
+pessoas = {
+    'nome' : 'Tiago',
+    'idade': 16,
+    'Sexo' : 'Masculino'
+    }
+print(pessoas.items())
+print(pessoas.values())
+print(pessoas.keys())
+del pessoas['idade']
+pessoas['idade'] = 20 
